@@ -172,7 +172,7 @@ def action():
         print '\x1b[1;91mEnter any code 01 to 49'
         print '\x1b[1;92m[TELENOR]\x1b[1;91m[JAAZ]\x1b[1;93m[ZONG]\x1b[1;95m[UFUNE]'
         try:
-            c = raw_input("\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ➤ ")
+            c = raw_input("\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ➤")
             k="03"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
